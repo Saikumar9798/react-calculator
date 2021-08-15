@@ -1,0 +1,27 @@
+.btn {
+  background-color: var(--black);
+  padding: 1rem;
+  color: white;
+  border-radius: 50%;
+  font-size: 2rem;
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  margin-left: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  background-color: var(--lower-black);
+  transition: background-color ease-in-out 0.2s;
+  outline: none;
+  border: none;
+}

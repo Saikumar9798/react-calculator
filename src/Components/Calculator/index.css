@@ -1,0 +1,28 @@
+.calc-container {
+  height: 72vh;
+  background-color: var(--black);
+  position: relative;
+  width: 26rem !important;
+  border-radius: 2rem;
+  z-index: 1000;
+  box-shadow: rgba(14, 30, 37, 1) 0px 2px 4px 0px, rgba(14, 30, 37, 1) 0px 2px 16px 0px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  margin-top: -5rem !important;
+}
+
+.calc-display {
+  height: 30%;
+  text-overflow: clip;
+
+  
+}
+
+.main-display {
+  border-radius: 0.5rem;
+
+}
+
+.calc-keypad {
+  height: 70%;
+}

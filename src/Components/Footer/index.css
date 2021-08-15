@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    background-color: var(--black);
+    height: 8vh;
+    font-size: 2rem;
+    color: #8BD8BD;
+    font-weight: 400;
+    font-family: 'Space Mono', monospace !important;
+}
